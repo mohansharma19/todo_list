@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body ka CSS */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightcoral;
+}
+
+/* App ka CSS */
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Todo container */
+.todo-container {
+  width: 100%;
+  max-width: 450px;
+  background-color: aqua;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Todo List heading */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: blueviolet;
+}
+
+/* Todo input */
+.todo-input {
+  display: flex;
+  gap: 20px;
+}
+
+/* Input box */
+.todo-input input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Button */
+button {
+  padding: 12px 17px;
+  background-color: yellow;
+  color: red;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+  background-color: blue;
+}
+
+/* Unordered list */
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid black;
+}
+
+li span {
+  flex: 1;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+
+/* Completed task */
+.completed {
+  text-decoration: line-through;
+  color: green;
+}
+
+/* Delete button */
+.delete_btn {
+  background-color: crimson;
+  padding: 8px 10px;
+}
+
+.delete_btn:hover {
+  background-color: burlywood;
+}
+
+/* Empty list message */
+.empty {
+  text-align: center;
+  color: darkred;
+  margin-top: 25px;
+}
+
+/* Task count */
+.count {
+  margin-top: 20px;
+  color: darkmagenta;
+  font-size: 14px;
+}
